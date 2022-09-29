@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Coding by SEYHAN Blog | www.seyhanblog.com-->
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-posta ve Şifre Doğrulama</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <header>Giriş</header>
+    <form action="http://www.seyhanblog.com/">
+      <div class="field email-field">
+        <div class="input-field">
+          <input type="email" placeholder="E-Postanızı Giriniz" class="email" />
+        </div>
+        <span class="error email-error">
+          <i class="bx bx-error-circle error-icon"></i>
+          <p class="error-text">
+            Lütfen geçerli E-posta adresini giriniz</p>
+        </span>
+      </div>
+      <div class="field create-password">
+        <div class="input-field">
+          <input type="password" placeholder="Şifre Oluştur" class="password" />
+          <i class="bx bx-hide show-hide"></i>
+        </div>
+        <span class="error password-error">
+          <i class="bx bx-error-circle error-icon"></i>
+          <p class="error-text">
+            Lütfen sayı, sembol, büyük ve küçük olmak üzere en az 8 karakter giriniz</p>
+        </span>
+      </div>
+      <div class="field confirm-password">
+        <div class="input-field">
+          <input type="password" placeholder="Şifreyi Onayla" class="cPassword" />
+          <i class="bx bx-hide show-hide"></i>
+        </div>
+        <span class="error cPassword-error">
+          <i class="bx bx-error-circle error-icon"></i>
+          <p class="error-text">Şifre eşleşmiyor</p>
+        </span>
+      </div>
+      <div class="input-field button">
+        <input type="submit" value="Gönder" />
+      </div>
+    </form>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
